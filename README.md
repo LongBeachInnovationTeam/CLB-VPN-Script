@@ -6,7 +6,7 @@ Use this handy script to login to City VPN with OpenConnect in case you are usin
 
 1. Install necessary packages: `$ sudo apt-get install openconnect lib32ncurses5 lib32tinfo5 lib32z1 libc6-i386 libpkcs11-helper1 openvpn vpnc-scripts`
 2. Edit the `VPNUSER` variable in the script with your City Employee ID/login name
-3. Save the script somewhere in your system where it can be picked up by your `$PATH`. e.g. `/usr/local/bin/clbvpn`
+3. Save the script somewhere in your system where it can be picked up by your `$PATH`, e.g. `/usr/local/bin/clbvpn`
 4. Make the script executable `$ chmod +x /usr/local/bin/clbvpn`
 5. Verify that your script is in your `$PATH` with `$ which clbvpn`
 
